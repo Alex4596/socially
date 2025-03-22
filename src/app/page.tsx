@@ -1,8 +1,11 @@
+import prisma from "@/lib/prisma";
 
-export default function Home() {
-  return (
-      <div className="m-4">
-          <h1>Home Page contend</h1>
-      </div>
-  );
+export default async function Home() {
+
+
+    return (
+         <div className="m-4">
+             <h1>Home Page contend</h1>
+         </div>
+    );
 }
